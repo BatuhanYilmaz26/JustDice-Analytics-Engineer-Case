@@ -10,4 +10,4 @@ The key features of my submission are:
 - Built the report as a web application using the streamlit library, providing an interactive platform for users to explore the data insights
 - Hosted the web application on the Streamlit cloud for easy access
 
-To view the report, please visit the following link: https://batuhanyilmaz-justdice-case-report.streamlit.app.
+To view the report, please visit the following link: https://batuhanyilmaz-justdice-case-report.streamlit.app
