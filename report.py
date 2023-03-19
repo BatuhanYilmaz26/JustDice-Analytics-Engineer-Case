@@ -348,29 +348,38 @@ with col10:
     - By identifying patterns or trends in the fluctuations, we can make more informed business decisions in the future.
     """)
 
-st.markdown("""
-### 📊 SWOT Analysis
-#### Strengths:
-- The company has a successful payout strategy that appears to be attracting and retaining customers.
-- There are a few popular apps that are particularly popular among users, providing a strong foundation for investment and promotion.
-- The company is generating consistent daily revenue, indicating a stable and profitable business model.
-#### Weaknesses:
-- There are fluctuations in daily ad spend and daily installs, suggesting potential issues with marketing strategy or external factors impacting user behavior.
-- The data on total installs by country shows a heavy reliance on one country, which could be a vulnerability if that market were to experience significant changes or competition.
-- There are smaller percentages of installs for certain apps, indicating potential areas for improvement in terms of product or marketing strategy.
-#### Opportunities:
-- The fluctuations in daily installs and ad spend could provide opportunities to identify new marketing strategies or approaches that better align with user behavior and external factors.
-- There is potential for growth in countries with smaller percentages of total installs, providing opportunities for expansion and diversification.
-- The popularity of certain apps could be leveraged to introduce new features or products that appeal to the same user base.
-#### Threats:
-- Changes in the competitive landscape could impact the company's position in the market.
-- External factors such as changes in consumer behavior or industry trends could impact daily installs and ad spend.
-- Heavy reliance on one country for a majority of installs could leave the company vulnerable to political or economic changes in that country.
-""")
-
+st.header("📊 SWOT Analysis")
 col11, col12 = st.columns(2)
 
+
 with col11:
+    st.markdown("""
+    #### Strengths:
+    - The company has a successful payout strategy that appears to be attracting and retaining customers.
+    - There are a few popular apps that are particularly popular among users, providing a strong foundation for investment and promotion.
+    - The company is generating consistent daily revenue, indicating a stable and profitable business model.
+    #### Weaknesses:
+    - There are fluctuations in daily ad spend and daily installs, suggesting potential issues with marketing strategy or external factors impacting user behavior.
+    - The data on total installs by country shows a heavy reliance on one country, which could be a vulnerability if that market were to experience significant changes or competition.
+    - There are smaller percentages of installs for certain apps, indicating potential areas for improvement in terms of product or marketing strategy.
+    """)
+
+with col12:
+
+    st.markdown("""
+    #### Opportunities:
+    - The fluctuations in daily installs and ad spend could provide opportunities to identify new marketing strategies or approaches that better align with user behavior and external factors.
+    - There is potential for growth in countries with smaller percentages of total installs, providing opportunities for expansion and diversification.
+    - The popularity of certain apps could be leveraged to introduce new features or products that appeal to the same user base.
+    #### Threats:
+    - Changes in the competitive landscape could impact the company's position in the market.
+    - External factors such as changes in consumer behavior or industry trends could impact daily installs and ad spend.
+    - Heavy reliance on one country for a majority of installs could leave the company vulnerable to political or economic changes in that country.
+    """)
+
+col13, col14 = st.columns(2)
+
+with col13:
     st.markdown("""
     ### 🏆 Conclusions
     - The financial analysis of JustDice provides valuable insights into the company's performance and potential areas for improvement.
@@ -379,7 +388,7 @@ with col11:
     - By exploring the reasons behind fluctuations in these metrics, the company can identify areas for improvement and make strategic investments in marketing efforts and product development to drive growth and maximize revenue.
     """)
 
-with col12:
+with col14:
     st.markdown("""
     ### ➡️ Next Steps
     - Conduct a deeper analysis of external factors that may be influencing ad spend and daily installs, such as seasonality, industry trends, and changes in consumer behavior.
