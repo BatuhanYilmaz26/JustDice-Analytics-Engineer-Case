@@ -381,7 +381,7 @@ col13, col14 = st.columns(2)
 
 with col13:
     st.markdown("""
-    ### 🏆 Conclusions
+    ## 🏆 Conclusions
     - The financial analysis of JustDice provides valuable insights into the company's performance and potential areas for improvement.
     - The fluctuation in ad spend, daily installs, and payouts highlight the importance of monitoring these metrics over time and identifying trends and patterns that can inform strategic decision-making.
     - The company's payout strategy appears to be successful in attracting new customers and retaining existing ones, and the consistency in daily revenue suggests a healthy financial position.
@@ -390,7 +390,7 @@ with col13:
 
 with col14:
     st.markdown("""
-    ### ➡️ Next Steps
+    ## ➡️ Next Steps
     - Conduct a deeper analysis of external factors that may be influencing ad spend and daily installs, such as seasonality, industry trends, and changes in consumer behavior.
     - Explore the reasons for the decline in daily installs after the peak in mid-November and identify potential areas for improvement.
     - Investigate why country_id=1 is the most popular country for installs and whether there are specific factors contributing to this trend.
